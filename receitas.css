@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(223, 130, 87);
+    width: auto;
+    height: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 15px;
+    /*background: blanchedalmond;*/
+}
+
+hr{
+    border: 2px solid blackgit;
+
+}
+
+h3{
+    background: rgb(233, 144, 19);
+    font-size: 20px;
+}
+
+.alignblocks{
+
+    height: 860px;
+}
+
+.text-justify{
+    text-align: justify;
+}
+.img{
+    width: 500px;
+}
+
+.menu{
+    padding-top: 20px;
+    margin-left: 5px;
+    text-align: left;
+    font-size: 20px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+.cor-body{
+    background: blanchedalmond;
+}
+.receitas{
+    background: blanchedalmond;
+    width: 550px;
+    height: 900px;
+    display: fixed;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;    
+}
+
+.area-lista{
+    text-align: left;
+    font-size: 18px;
+    padding-left: 80px;
+}
+
+.rodape{
+    background: black;
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 15px;
+    position: fixed;
+    left: 0px;  
+    width: 100%;
+    bottom: 0px;
+    height: 25px;
+}
